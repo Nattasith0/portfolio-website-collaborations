@@ -49,9 +49,11 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
-            <p class="hero-subtitle">Full Stack Developer</p>
-            <p class="hero-description">I create beautiful and functional web applications</p>
+            <h1>Hello, I'm <span class="highlight">Duo BOY</span></h1>
+<p class="hero-subtitle">
+    <span id="typing-text"></span>
+    <span class="cursor">|</span>
+</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
                 <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -132,39 +134,51 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
+      <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">My Projects</h2>
+            <h2 class="section-title">Our Projects</h2>
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web-Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+        
             <div class="projects-grid">
-                <div class="project-card">
-                    <img src="images/project1.jpg" alt="Project 1">
+                <div class="project-card" data-category="web">
+                    <img src="images/scoobydoo.jpg" alt="Project 4">
                     <div class="project-info">
-                        <h3>E-commerce Website</h3>
-                        <p>A full-stack e-commerce solution built with React and Node.js</p>
+                        <h3>scooby doo</h3>
+                        <p>Smart dog</p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="https://htmlpreview.github.io/?https://github.com/Nattasith0/mini-ecommerce-collaboration/blob/main/index.html" class="btn btn-smol">Live Demo</a>
                             <a href="#" class="btn btn-small btn-secondary">GitHub</a>
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="images/project2.jpg" alt="Project 2">
+            
+            
+                <div class="project-card" data-category="mobile">
+                    <img src="images/powerpuff.jpg" alt="Project 5">
                     <div class="project-info">
-                        <h3>Task Management App</h3>
-                        <p>A collaborative task management application with real-time updates</p>
+                        <h3>Power puff Girl</h3>
+                        <p>For HERO</p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="https://github.com/ch4kkapatPR/portfolio-website-collaborations" class="btn btn-smol">Live Demo</a>
                             <a href="#" class="btn btn-small btn-secondary">GitHub</a>
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="images/project3.jpg" alt="Project 3">
+            
+            
+                <div class="project-card" data-category="ui">
+                    <img src="images/omnitric.jpg" alt="Project 6">
                     <div class="project-info">
-                        <h3>Weather App</h3>
-                        <p>A responsive weather application with location-based forecasts</p>
+                        <h3>BEN10</h3>
+                        <p>Ultimate jetray</p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="https://github.com/ch4kkapatPR/portfolio-website-collaborations" class="btn btn-smol">Live Demo</a>
                             <a href="#" class="btn btn-small btn-secondary">GitHub</a>
                         </div>
                     </div>
@@ -172,7 +186,9 @@
             </div>
         </div>
     </section>
-
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -216,6 +232,9 @@
             </div>
         </div>
     </section>
+    <button class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</button>
 
     <!-- Footer -->
     <footer class="footer">
