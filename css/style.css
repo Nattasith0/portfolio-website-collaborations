@@ -189,7 +189,7 @@ body {
     display: flex;
     align-items: center;
     padding: 100px 20px 50px;
-    background: linear-gradient(135deg, #000000 25%,   #d6c69c 100%);
+    background: linear-gradient(135deg, #340049 0%, #ab00e4 40%, #fff78a 70%, #00fee4 100%);
     color: white;
 }
 
